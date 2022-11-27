@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class Obstacle : MonoBehaviour
 {
+    public WinLose winLose;
     private void OnTriggerEnter(Collider other)
     {
         if (other.transform.tag == "plane")
         {
-            Debug.Log(other.gameObject);
+            winLose.LoseLevel();
         }
     }
 }
