@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6444108812922122959}
   - component: {fileID: 2171007985387941826}
   - component: {fileID: 948207326006412558}
+  - component: {fileID: 7989436988937338301}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Untagged
@@ -98,6 +99,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -2124705421725058983, guid: e836dcccb540c43aaa48d30a1972199e, type: 3}
+--- !u!114 &7989436988937338301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2564495217141354093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61b1d260553d5b94fbedfa6a3247ac99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winLose: {fileID: 0}
 --- !u!1 &6955045866214744793
 GameObject:
   m_ObjectHideFlags: 0
@@ -192,7 +206,7 @@ GameObject:
   - component: {fileID: 7819255748603950934}
   - component: {fileID: 26314416355870808}
   m_Layer: 0
-  m_Name: Testere_Prefab
+  m_Name: testere_Prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
