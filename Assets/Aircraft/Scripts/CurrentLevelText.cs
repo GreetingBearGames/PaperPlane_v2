@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
-public class CurrentLevelText : MonoBehaviour
-{
-    public Text txt;
-
+public class CurrentLevelText : MonoBehaviour{
+    public TextMeshProUGUI currentLevelText;
     private void Awake() {
         var currentLevel = SceneManager.GetActiveScene().buildIndex + 1;
-        txt.text = currentLevel.ToString();
+        currentLevelText.text = currentLevel.ToString();
     }
 }

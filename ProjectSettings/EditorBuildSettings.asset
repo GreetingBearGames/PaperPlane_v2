@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Aircraft/Scenes/Level 1.unity
+    guid: e0664be4f6f834a0daba3fce8e2b7bdf
+  - enabled: 1
+    path: Assets/Aircraft/Scenes/Level 2.unity
+    guid: e08eefb3b757f154188d869d39dee716
+  - enabled: 1
+    path: Assets/Aircraft/Scenes/Level 3.unity
+    guid: e26603232a4168a429ce14cc7c224c70
+  - enabled: 1
+    path: Assets/Aircraft/Scenes/Level 4.unity
+    guid: 94766964ea8d6fb4c982a502b51129ba
   m_configObjects: {}
