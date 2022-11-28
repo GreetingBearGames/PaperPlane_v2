@@ -6,13 +6,25 @@ public class NewController : MonoBehaviour
 {
     [SerializeField] private float fwdSpeed, horizontalSpeedFactor, inputSensitivity;
     [SerializeField] private float rollRotSpeed, rollTurnSpeed;
+    [SerializeField] private GameObject floorObject;
     private Touch touch;
     private Vector2 touchPos, previousTouchPos;
     private float normalizedDeltaPosition, targetPos;
     private Vector3 lastPosition;
-    [SerializeField] private GameObject floorObject;
+    private GameObject planeObj;
+    private float floorMinX, floorMaxX, planeMinX, planeMaxX;
 
 
+    void Start()
+    {
+        planeObj = this.transform.GetChild(1).gameObject;
+        planeMinX = planeObj.GetComponent<MeshCollider>().bounds.min.x;
+        planeMaxX = planeObj.GetComponent<MeshCollider>().bounds.max.x;
+        floorMinX = floorObject.GetComponent<MeshCollider>().bounds.min.x;
+        floorMaxX = floorObject.GetComponent<MeshCollider>().bounds.max.x;
+
+        SetFwdSpeed(0);
+    }
 
     void Update()
     {
@@ -41,7 +53,7 @@ public class NewController : MonoBehaviour
             normalizedDeltaPosition = ((touchPos.x - previousTouchPos.x) / Screen.width) * inputSensitivity;
         }
         targetPos = targetPos + normalizedDeltaPosition;
-        targetPos = Mathf.Clamp(targetPos, floorObject.GetComponent<MeshCollider>().bounds.min.x, floorObject.GetComponent<MeshCollider>().bounds.max.x);
+        targetPos = Mathf.Clamp(targetPos, floorMinX - planeMinX, floorMaxX - planeMaxX);
 
         previousTouchPos = touchPos;
     }
@@ -81,8 +93,18 @@ public class NewController : MonoBehaviour
 
         lastPosition = transform.position;
     }
-    public void SetFwdSpeed(float newSpeed){
-        if(newSpeed >= 0 && newSpeed <= 10.0f)
+
+
+    public void SetFwdSpeed(float newSpeed)
+    {
+        if (newSpeed >= 0 && newSpeed <= 10.0f)
             fwdSpeed = newSpeed;
+    }
+
+
+    public void StartandStop_Plane()
+    {
+        SetFwdSpeed(10);
+        CameraSwitch.instance.ChangeCameraFunct();
     }
 }
