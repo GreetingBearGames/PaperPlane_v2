@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class Coins : MonoBehaviour
 {
-    public Score score;
+    public WinLose winLose;
     [SerializeField]private float rotateDegreesPerSecond;
     public GameObject particlesAll;
+    
 
     private void Update() {
         TurnCoins();
@@ -16,7 +17,7 @@ public class Coins : MonoBehaviour
     {
         if (other.transform.tag == "plane")
         {
-            score.numOfCoins++;
+            winLose.numOfCoins += winLose.coinRate;
             Explode();
             Destroy(this.gameObject);
         }

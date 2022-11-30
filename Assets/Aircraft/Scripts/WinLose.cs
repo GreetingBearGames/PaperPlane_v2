@@ -7,7 +7,16 @@ public class WinLose : MonoBehaviour
 {
     [SerializeField] private NewController newController;
     public GameObject gameOverText,gameOverButton;
-    private bool gameEnded;
+    public bool gameEnded, gameStarted;
+    public float coinRate, numOfCoins, fuel, fuelConsumption;
+    private float maxDistancetoFinish;
+    private void Awake() {
+        coinRate = 1.0f;
+        numOfCoins = 1000.0f;
+        fuel = 100f;
+        fuelConsumption = SceneManager.GetActiveScene().buildIndex + 1;
+        StartCoroutine("DoCheck");
+    }
     public void WinLevel(){
         if(!gameEnded){
             newController.SetFwdSpeed(0);
@@ -29,11 +38,37 @@ public class WinLose : MonoBehaviour
 
     public void RestartLevel(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        gameStarted = false;
     }
 
     public void NextLevel(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        gameStarted = false;
     }
-    
+
+    public bool IsFuelFinished(){
+        if(fuel <= 0){
+            return true;
+        }
+        return false;
+    }
+    public void FuelCheck(){
+        if(IsFuelFinished()){
+            LoseLevel();
+        }
+            
+    }
+    public void DecreaseFuel(){
+        fuel -= fuelConsumption;
+        FuelCheck();
+    }
+
+    IEnumerator DoCheck() {
+        for(;;) {
+            if(!gameEnded)
+                DecreaseFuel();
+            yield return new WaitForSeconds(.1f);
+        }
+    }
 }
 

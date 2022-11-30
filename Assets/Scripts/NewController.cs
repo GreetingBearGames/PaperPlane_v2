@@ -12,8 +12,6 @@ public class NewController : MonoBehaviour
     private Vector3 lastPosition;
     [SerializeField] private GameObject floorObject;
 
-
-
     void Update()
     {
         TouchInput();
@@ -42,7 +40,6 @@ public class NewController : MonoBehaviour
         }
         targetPos = targetPos + normalizedDeltaPosition;
         targetPos = Mathf.Clamp(targetPos, floorObject.GetComponent<MeshCollider>().bounds.min.x, floorObject.GetComponent<MeshCollider>().bounds.max.x);
-
         previousTouchPos = touchPos;
     }
 
@@ -58,8 +55,6 @@ public class NewController : MonoBehaviour
 
         transform.position = new Vector3(transform.position.x + newPositionDifference, transform.position.y, transform.position.z + fwdSpeed * Time.deltaTime);
     }
-
-
 
     private void RollRotation()
     {
@@ -82,7 +77,7 @@ public class NewController : MonoBehaviour
         lastPosition = transform.position;
     }
     public void SetFwdSpeed(float newSpeed){
-        if(newSpeed >= 0 && newSpeed <= 10.0f)
+        if(newSpeed >= 0)
             fwdSpeed = newSpeed;
     }
 }

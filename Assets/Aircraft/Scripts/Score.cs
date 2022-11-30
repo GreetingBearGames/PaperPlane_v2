@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Score : MonoBehaviour
 {
-    public int numOfCoins = 0, score = 0;
+    public int score = 0;
     public float curPosZ, startPosZ;
 
 

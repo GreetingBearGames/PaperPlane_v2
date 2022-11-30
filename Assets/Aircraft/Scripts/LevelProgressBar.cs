@@ -14,12 +14,8 @@ public class LevelProgressBar : MonoBehaviour
         maxDistancetoFinish = finishLine.transform.position.z - newController.transform.position.z;
     }
 
-    void Update()
-        {
-            //if (isGameActive)
-            //{
-                float distance = finishLine.transform.position.z - newController.transform.position.z;
-                levelProgressBar.value = 1 - (distance / maxDistancetoFinish);
-            //}
-        }
+    void Update(){
+        float distance = finishLine.transform.position.z - newController.transform.position.z;
+        levelProgressBar.value = 1 - (distance / maxDistancetoFinish);
+    }
 }
