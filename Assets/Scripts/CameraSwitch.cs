@@ -7,15 +7,22 @@ public class CameraSwitch : MonoBehaviour
 {
     [SerializeField] private CinemachineVirtualCamera startCam;
     [SerializeField] private CinemachineVirtualCamera gameCam;
+    public static CameraSwitch instance;
 
 
     void Awake()
+    {
+        instance = this;
+    }
+
+    public void ChangeCameraFunct()
     {
         if (startCam.Priority >= gameCam.Priority)
         {
             StartCoroutine(ChangeCamera());
         }
     }
+
 
     IEnumerator ChangeCamera()
     {
