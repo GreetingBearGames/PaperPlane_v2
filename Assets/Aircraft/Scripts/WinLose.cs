@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class WinLose : MonoBehaviour
 {
     [SerializeField] private NewController newController;
+    [SerializeField] private AudioSource WinSound;
+    [SerializeField] private AudioSource buttonSound;
     public GameObject gameOverText, gameOverButton;
     public bool gameEnded, gameStarted = false;
     public float coinRate, numOfCoins, fuel, fuelConsumption, totalFuel;
@@ -16,7 +18,7 @@ public class WinLose : MonoBehaviour
     {
         coinRate = 1.0f;
         numOfCoins = 1000.0f;
-        fuel = 100f;
+        fuel = 1000f;
         fuelConsumption = SceneManager.GetActiveScene().buildIndex + 1;
         totalFuel = fuel;
         StartCoroutine("DoCheck");
@@ -31,7 +33,9 @@ public class WinLose : MonoBehaviour
             GameObject.FindWithTag("plane").GetComponent<Animator>().Play("WinPlane");
             GameObject.FindWithTag("confettis").transform.GetChild(0).transform.gameObject.SetActive(true);
             GameObject.FindWithTag("confettis").transform.GetChild(1).transform.gameObject.SetActive(true);
+            WinSound.Play();
             gameEnded = true;
+            StartCoroutine(NextLevel());
         }
     }
 
@@ -48,14 +52,8 @@ public class WinLose : MonoBehaviour
 
     public void RestartLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        gameStarted = false;
-    }
-
-    public void NextLevel()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        gameStarted = false;
+        buttonSound.Play();
+        StartCoroutine("RestartLevelWait");
     }
 
     public bool IsFuelFinished()
@@ -101,6 +99,20 @@ public class WinLose : MonoBehaviour
 
             yield return new WaitForSeconds(.1f);
         }
+    }
+
+    IEnumerator NextLevel()
+    {
+        yield return new WaitForSeconds(3f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        gameStarted = false;
+    }
+
+    IEnumerator RestartLevelWait()
+    {
+        yield return new WaitForSeconds(0.5f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        gameStarted = false;
     }
 }
 

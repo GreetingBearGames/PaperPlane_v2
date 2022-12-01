@@ -11,6 +11,7 @@ public class ShopMenuButtons : MonoBehaviour
     [SerializeField] private Sprite deactiveIncomeImg, deactiveFuelImg;
     [SerializeField] private Sprite activeIncomeImg, activeFuelImg;
     ColorBlock newColorBlockFuel, newColorBlockIncome;
+    [SerializeField] private AudioSource buttonSound;
 
     private void Awake()
     {
@@ -49,11 +50,13 @@ public class ShopMenuButtons : MonoBehaviour
     {
         winLose.numOfCoins -= menuValue;
         winLose.coinRate *= 1.25f;
+        buttonSound.Play();
     }
 
     public void FuelUpgrade()
     {
         winLose.numOfCoins -= menuValue;
         winLose.fuel += 25f;
+        buttonSound.Play();
     }
 }
