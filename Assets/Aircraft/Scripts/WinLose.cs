@@ -8,7 +8,7 @@ public class WinLose : MonoBehaviour
     [SerializeField] private NewController newController;
     public GameObject gameOverText, gameOverButton;
     public bool gameEnded, gameStarted = false;
-    public float coinRate, numOfCoins, fuel, fuelConsumption;
+    public float coinRate, numOfCoins, fuel, fuelConsumption, totalFuel;
     private float maxDistancetoFinish;
 
 
@@ -18,6 +18,7 @@ public class WinLose : MonoBehaviour
         numOfCoins = 1000.0f;
         fuel = 100f;
         fuelConsumption = SceneManager.GetActiveScene().buildIndex + 1;
+        totalFuel = fuel;
         StartCoroutine("DoCheck");
     }
 
@@ -77,6 +78,15 @@ public class WinLose : MonoBehaviour
     {
         fuel -= fuelConsumption;
         FuelCheck();
+    }
+
+    public void IncreaseFuel(float fuelBoosterAmount)
+    {
+        fuel += fuelBoosterAmount;
+        if (fuel > totalFuel)
+        {
+            fuel = totalFuel;
+        }
     }
 
     IEnumerator DoCheck()

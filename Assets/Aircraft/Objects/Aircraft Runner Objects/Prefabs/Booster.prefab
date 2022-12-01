@@ -346,3 +346,22 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4541401346981071024, guid: ab93c4e8c9d7c467dba3363fb624b4dd, type: 3}
   m_PrefabInstance: {fileID: 7687898069949651558}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6844761517774817388 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3768840924100678154, guid: ab93c4e8c9d7c467dba3363fb624b4dd, type: 3}
+  m_PrefabInstance: {fileID: 7687898069949651558}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5011608904949295692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6844761517774817388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00b21e29a849b4e988b13a1a919a8c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winLose: {fileID: 0}
+  fuelIncreaseRate: 1
