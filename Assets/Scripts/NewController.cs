@@ -107,4 +107,10 @@ public class NewController : MonoBehaviour
         SetFwdSpeed(10);
         CameraSwitch.instance.ChangeCameraFunct();
     }
+
+
+    public float GetSpeed()
+    {
+        return fwdSpeed;
+    }
 }

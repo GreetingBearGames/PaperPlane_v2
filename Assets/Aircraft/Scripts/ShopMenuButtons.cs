@@ -11,27 +11,33 @@ public class ShopMenuButtons : MonoBehaviour
     [SerializeField] private Sprite deactiveIncomeImg, deactiveFuelImg;
     [SerializeField] private Sprite activeIncomeImg, activeFuelImg;
     ColorBlock newColorBlockFuel, newColorBlockIncome;
-    
-    private void Awake() {
+
+    private void Awake()
+    {
         ColorBlock newColorBlockFuel = fuelButton.colors;
         ColorBlock newColorBlockIncome = incomeButton.colors;
     }
-    private void Update() {
-        if(!winLose.gameStarted){
-            fuelButton.enabled = true;
-            incomeButton.enabled = true;
+    private void Update()
+    {
+        if (!winLose.gameStarted)
+        {
+            fuelButton.gameObject.SetActive(true);
+            incomeButton.gameObject.SetActive(true);
         }
-        else{
-            fuelButton.enabled = true;
-            incomeButton.enabled = true;
+        else
+        {
+            fuelButton.gameObject.SetActive(false);
+            incomeButton.gameObject.SetActive(false);
         }
-        if(winLose.numOfCoins < menuValue){
+        if (winLose.numOfCoins < menuValue)
+        {
             fuelButton.GetComponent<Image>().sprite = deactiveFuelImg;
             incomeButton.GetComponent<Image>().sprite = deactiveIncomeImg;
             fuelButton.enabled = false;
             incomeButton.enabled = false;
         }
-        else{
+        else
+        {
             fuelButton.GetComponent<Image>().sprite = activeFuelImg;
             incomeButton.GetComponent<Image>().sprite = activeIncomeImg;
             fuelButton.enabled = true;
@@ -39,12 +45,14 @@ public class ShopMenuButtons : MonoBehaviour
         }
     }
 
-    public void IncomeUpgrade(){
+    public void IncomeUpgrade()
+    {
         winLose.numOfCoins -= menuValue;
         winLose.coinRate *= 1.25f;
     }
 
-    public void FuelUpgrade(){
+    public void FuelUpgrade()
+    {
         winLose.numOfCoins -= menuValue;
         winLose.fuel += 25f;
     }
