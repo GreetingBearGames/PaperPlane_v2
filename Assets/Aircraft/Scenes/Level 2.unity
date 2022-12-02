@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.08276503, g: 0.036201574, b: 0.1337327, a: 1}
+  m_IndirectSpecularColor: {r: 0.082765035, g: 0.036201578, b: 0.13373275, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -372,6 +372,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1507843672}
     m_Modifications:
+    - target: {fileID: 5027447807721349271, guid: e1d4e27be188c4045821f1aff8d7a6c3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 07787dda787592143b1baacd9bb8918b, type: 2}
     - target: {fileID: 6164928684446964728, guid: e1d4e27be188c4045821f1aff8d7a6c3, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -559,7 +563,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 118390510}
-  m_LocalRotation: {x: 0.110085145, y: 0.000000019120396, z: -0.0000000021177433, w: 0.9939222}
+  m_LocalRotation: {x: 0.11008517, y: -0.000000016203394, z: 0.0000000017946608, w: 0.9939222}
   m_LocalPosition: {x: 0, y: 4.143, z: -206.28}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2778,6 +2782,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2015886963}
     m_Modifications:
+    - target: {fileID: 92654235623324536, guid: df45ae57f658d4a429f4502db4db8d5a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: acc05fac70f965d4b99482e7e0aded33, type: 2}
+    - target: {fileID: 649312100412092342, guid: df45ae57f658d4a429f4502db4db8d5a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f8738dad477c89746a4008cbb37d9e72, type: 2}
     - target: {fileID: 4522827076216597715, guid: df45ae57f658d4a429f4502db4db8d5a, type: 3}
       propertyPath: winLose
       value: 
@@ -3936,6 +3948,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2015886963}
     m_Modifications:
+    - target: {fileID: 3504263248614639084, guid: 6491625779c184f8eb429be037809906, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: eb1d15fbbb689674ebcb0bb5e1be7080, type: 2}
+    - target: {fileID: 4123082032980758343, guid: 6491625779c184f8eb429be037809906, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: acc05fac70f965d4b99482e7e0aded33, type: 2}
     - target: {fileID: 6127990512880077501, guid: 6491625779c184f8eb429be037809906, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -3984,6 +4004,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HollowBox_Prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 7890311006047599513, guid: 6491625779c184f8eb429be037809906, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f8738dad477c89746a4008cbb37d9e72, type: 2}
     - target: {fileID: 8490448893823589141, guid: 6491625779c184f8eb429be037809906, type: 3}
       propertyPath: winLose
       value: 
@@ -9223,6 +9247,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2015886963}
     m_Modifications:
+    - target: {fileID: 3504263248614639084, guid: 6491625779c184f8eb429be037809906, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: eb1d15fbbb689674ebcb0bb5e1be7080, type: 2}
+    - target: {fileID: 4123082032980758343, guid: 6491625779c184f8eb429be037809906, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: acc05fac70f965d4b99482e7e0aded33, type: 2}
     - target: {fileID: 6127990512880077501, guid: 6491625779c184f8eb429be037809906, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -9271,6 +9303,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HollowBox_Prefab (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7890311006047599513, guid: 6491625779c184f8eb429be037809906, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f8738dad477c89746a4008cbb37d9e72, type: 2}
     - target: {fileID: 8490448893823589141, guid: 6491625779c184f8eb429be037809906, type: 3}
       propertyPath: winLose
       value: 
