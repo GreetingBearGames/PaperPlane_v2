@@ -69,6 +69,7 @@ public class WinLose : MonoBehaviour
     {
         if (IsFuelFinished())
         {
+            GameObject.FindWithTag("plane").GetComponent<Animator>().Play("FuelEmpty");
             LoseLevel();
         }
 
