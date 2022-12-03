@@ -186,6 +186,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: engel duz duvar (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 725673823191029232, guid: 22e5d98d06036804b8e831672c5e166d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22e5d98d06036804b8e831672c5e166d, type: 3}
 --- !u!4 &5255885 stripped
@@ -579,6 +583,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: engel duz duvar (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 725673823191029232, guid: 22e5d98d06036804b8e831672c5e166d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22e5d98d06036804b8e831672c5e166d, type: 3}
 --- !u!4 &57977391 stripped
@@ -604,6 +612,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -663,6 +683,10 @@ PrefabInstance:
     - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: m_Name
       value: puan coin2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
@@ -1027,6 +1051,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -1087,6 +1123,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: puan coin2 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
 --- !u!4 &197511368 stripped
@@ -1101,6 +1141,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1202816573}
     m_Modifications:
+    - target: {fileID: 1904113025027509687, guid: df45ae57f658d4a429f4502db4db8d5a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4522827076216597715, guid: df45ae57f658d4a429f4502db4db8d5a, type: 3}
       propertyPath: winLose
       value: 
@@ -1109,6 +1153,10 @@ PrefabInstance:
       propertyPath: impactSound
       value: 
       objectReference: {fileID: 875820193}
+    - target: {fileID: 5765624204899238823, guid: df45ae57f658d4a429f4502db4db8d5a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7291343528068622924, guid: df45ae57f658d4a429f4502db4db8d5a, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1157,6 +1205,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Punch_Prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 7961201829213106422, guid: df45ae57f658d4a429f4502db4db8d5a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df45ae57f658d4a429f4502db4db8d5a, type: 3}
 --- !u!4 &197548825 stripped
@@ -1171,6 +1223,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -1230,6 +1294,10 @@ PrefabInstance:
     - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: m_Name
       value: puan coin2 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
@@ -1301,6 +1369,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: engel duz duvar (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 725673823191029232, guid: 22e5d98d06036804b8e831672c5e166d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22e5d98d06036804b8e831672c5e166d, type: 3}
 --- !u!4 &213390292 stripped
@@ -1315,6 +1387,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -1374,6 +1458,10 @@ PrefabInstance:
     - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: m_Name
       value: puan coin2 (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
@@ -1457,6 +1545,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: torusoval (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5733481112493325230, guid: 6824d7bad9f6db347b10e4ee6649fe96, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6824d7bad9f6db347b10e4ee6649fe96, type: 3}
 --- !u!4 &311631397 stripped
@@ -1471,9 +1563,61 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1830961141}
     m_Modifications:
+    - target: {fileID: 1910715900087072800, guid: 660ca65ae871d46c9a8a65391a45fba7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156666103478982158, guid: 660ca65ae871d46c9a8a65391a45fba7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156666103659366769, guid: 660ca65ae871d46c9a8a65391a45fba7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156666103846453787, guid: 660ca65ae871d46c9a8a65391a45fba7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156666103872407271, guid: 660ca65ae871d46c9a8a65391a45fba7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156666103894506923, guid: 660ca65ae871d46c9a8a65391a45fba7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156666104398313083, guid: 660ca65ae871d46c9a8a65391a45fba7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156666104898924624, guid: 660ca65ae871d46c9a8a65391a45fba7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156666104990352662, guid: 660ca65ae871d46c9a8a65391a45fba7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156666105038351277, guid: 660ca65ae871d46c9a8a65391a45fba7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156666105525027600, guid: 660ca65ae871d46c9a8a65391a45fba7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156666105531381671, guid: 660ca65ae871d46c9a8a65391a45fba7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4470976739834374584, guid: 660ca65ae871d46c9a8a65391a45fba7, type: 3}
       propertyPath: m_Name
       value: Buildings
+      objectReference: {fileID: 0}
+    - target: {fileID: 4470976739834374584, guid: 660ca65ae871d46c9a8a65391a45fba7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4470976739834374587, guid: 660ca65ae871d46c9a8a65391a45fba7, type: 3}
       propertyPath: m_RootOrder
@@ -1517,6 +1661,54 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4470976739834374587, guid: 660ca65ae871d46c9a8a65391a45fba7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7636167843439886170, guid: 660ca65ae871d46c9a8a65391a45fba7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7636167843521462506, guid: 660ca65ae871d46c9a8a65391a45fba7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7636167843547626406, guid: 660ca65ae871d46c9a8a65391a45fba7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7636167843673271119, guid: 660ca65ae871d46c9a8a65391a45fba7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7636167843752735792, guid: 660ca65ae871d46c9a8a65391a45fba7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7636167843957115706, guid: 660ca65ae871d46c9a8a65391a45fba7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7636167844525919505, guid: 660ca65ae871d46c9a8a65391a45fba7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7636167844564645975, guid: 660ca65ae871d46c9a8a65391a45fba7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7636167845105683174, guid: 660ca65ae871d46c9a8a65391a45fba7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7636167845116362321, guid: 660ca65ae871d46c9a8a65391a45fba7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7636167845200910060, guid: 660ca65ae871d46c9a8a65391a45fba7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7967751386466813281, guid: 660ca65ae871d46c9a8a65391a45fba7, type: 3}
+      propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1588,6 +1780,10 @@ PrefabInstance:
     - target: {fileID: 725673823191029232, guid: 22e5d98d06036804b8e831672c5e166d, type: 3}
       propertyPath: m_Name
       value: engel duz duvar (04)
+      objectReference: {fileID: 0}
+    - target: {fileID: 725673823191029232, guid: 22e5d98d06036804b8e831672c5e166d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22e5d98d06036804b8e831672c5e166d, type: 3}
@@ -1747,6 +1943,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -1807,6 +2015,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: puan coin2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
 --- !u!4 &432330610 stripped
@@ -1821,6 +2033,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -1881,6 +2105,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: puan coin2 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
 --- !u!4 &437080198 stripped
@@ -1895,6 +2123,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -1954,6 +2194,10 @@ PrefabInstance:
     - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: m_Name
       value: puan coin2 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
@@ -2116,6 +2360,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -2175,6 +2431,10 @@ PrefabInstance:
     - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: m_Name
       value: puan coin2 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
@@ -2631,6 +2891,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -2691,6 +2963,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: puan coin2 (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
 --- !u!4 &634744545 stripped
@@ -2705,6 +2981,190 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1830961141}
     m_Modifications:
+    - target: {fileID: 4115687963164296204, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4115687963172991260, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4115687963230533034, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4115687963404736548, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4115687963467923033, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4115687963857469201, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4115687963886371611, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4115687963960609434, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4115687964084494806, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4115687964128789893, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4115687964247040300, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4115687964336193142, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4115687964445263690, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4115687964527546487, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4115687964530065904, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4115687964701877752, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4115687964709985853, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4115687964877860147, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4115687964892972037, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4115687964955347398, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4115687965057285807, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4115687965081745303, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4115687965088570378, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551467411062744421, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551467411141640984, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551467411302812765, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551467411310917965, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551467411375294699, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551467411528891994, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551467411549012560, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551467411584284635, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551467412009878327, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551467412035353099, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551467412221177142, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551467412222655665, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551467412261510295, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551467412356151492, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551467412375854189, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551467412535228740, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551467412554993778, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551467412598682759, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551467412631356398, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551467412741049046, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551467412746805579, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551467412856628092, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551467412865259705, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7916420490264800840, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -2756,6 +3216,10 @@ PrefabInstance:
     - target: {fileID: 7916420490264800843, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
       propertyPath: m_Name
       value: Clouds
+      objectReference: {fileID: 0}
+    - target: {fileID: 7916420490264800843, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a82efceb49aae47da8a47c36ae8647cd, type: 3}
@@ -2833,7 +3297,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -2886,6 +3350,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -2946,6 +3422,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: puan coin2 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
 --- !u!4 &738808169 stripped
@@ -2994,6 +3474,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1202816573}
     m_Modifications:
+    - target: {fileID: 2307481569801240684, guid: 00aea4da9e7fd44a4aed26ae6dd4f154, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2958684602470391786, guid: 00aea4da9e7fd44a4aed26ae6dd4f154, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3985311738816179590, guid: 00aea4da9e7fd44a4aed26ae6dd4f154, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5726149486168344145, guid: 00aea4da9e7fd44a4aed26ae6dd4f154, type: 3}
       propertyPath: winLose
       value: 
@@ -3050,6 +3542,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gulle_Prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6708183866171990699, guid: 00aea4da9e7fd44a4aed26ae6dd4f154, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7444843135477154856, guid: 00aea4da9e7fd44a4aed26ae6dd4f154, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00aea4da9e7fd44a4aed26ae6dd4f154, type: 3}
 --- !u!4 &762790735 stripped
@@ -3064,6 +3564,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -3124,6 +3636,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: puan coin2 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
 --- !u!4 &784464928 stripped
@@ -3138,9 +3654,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1202816573}
     m_Modifications:
+    - target: {fileID: 2564495217141354093, guid: f3d91ac8c3a8444868edc64aa0101722, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6955045866214744793, guid: f3d91ac8c3a8444868edc64aa0101722, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7478300849832750572, guid: f3d91ac8c3a8444868edc64aa0101722, type: 3}
       propertyPath: m_Name
       value: Testere_Prefab (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7478300849832750572, guid: f3d91ac8c3a8444868edc64aa0101722, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7819255748603950934, guid: f3d91ac8c3a8444868edc64aa0101722, type: 3}
       propertyPath: m_RootOrder
@@ -3610,6 +4138,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -3669,6 +4209,10 @@ PrefabInstance:
     - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: m_Name
       value: puan coin2 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
@@ -3889,6 +4433,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: engel duz duvar (06)
       objectReference: {fileID: 0}
+    - target: {fileID: 725673823191029232, guid: 22e5d98d06036804b8e831672c5e166d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22e5d98d06036804b8e831672c5e166d, type: 3}
 --- !u!4 &873526147 stripped
@@ -4031,6 +4579,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -4091,6 +4651,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: puan coin2 (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
 --- !u!4 &891145569 stripped
@@ -4105,6 +4669,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -4165,6 +4741,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: puan coin2 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
 --- !u!4 &965385308 stripped
@@ -4179,6 +4759,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -4239,6 +4831,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: puan coin2 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
 --- !u!4 &978539436 stripped
@@ -4253,6 +4849,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -4313,6 +4921,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: puan coin2 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
 --- !u!4 &983146123 stripped
@@ -4327,6 +4939,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -4386,6 +5010,10 @@ PrefabInstance:
     - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: m_Name
       value: puan coin2 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
@@ -4468,6 +5096,10 @@ PrefabInstance:
     - target: {fileID: 5733481112493325230, guid: 6824d7bad9f6db347b10e4ee6649fe96, type: 3}
       propertyPath: m_Name
       value: torusoval (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5733481112493325230, guid: 6824d7bad9f6db347b10e4ee6649fe96, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6824d7bad9f6db347b10e4ee6649fe96, type: 3}
@@ -4617,6 +5249,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -4677,6 +5321,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: puan coin2 (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
 --- !u!4 &1062085412 stripped
@@ -4691,6 +5339,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -4750,6 +5410,10 @@ PrefabInstance:
     - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: m_Name
       value: puan coin2 (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
@@ -4926,6 +5590,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -4986,6 +5662,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: puan coin2 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
 --- !u!4 &1099720951 stripped
@@ -5000,6 +5680,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -5059,6 +5751,10 @@ PrefabInstance:
     - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: m_Name
       value: puan coin2 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
@@ -5293,10 +5989,10 @@ MonoBehaviour:
   fuelButton: {fileID: 1932653703}
   incomeButton: {fileID: 1873546493}
   menuValue: 20
-  deactiveIncomeImg: {fileID: 21300000, guid: d1684841dedd33b49b5e84c82c86d400, type: 3}
-  deactiveFuelImg: {fileID: 21300000, guid: e2c9ae3d4a75a1c489af349fd96f1b15, type: 3}
-  activeIncomeImg: {fileID: 21300000, guid: 702b69e4573027940a31740103c13b8e, type: 3}
-  activeFuelImg: {fileID: 21300000, guid: 6f7a3650ce29a3a45a6260bcaff9871a, type: 3}
+  deactiveIncomeImg: {fileID: 21300000, guid: d480faf670b32ac449ca5ea9c56475e4, type: 3}
+  deactiveFuelImg: {fileID: 21300000, guid: 9ae2b4deb96ba8b4583b5113b074523e, type: 3}
+  activeIncomeImg: {fileID: 21300000, guid: 1e48c14abe5b2b346a975db842225a97, type: 3}
+  activeFuelImg: {fileID: 21300000, guid: e69e74a04baf05f44b32f3ff1754509f, type: 3}
   buttonSound: {fileID: 509474380}
 --- !u!4 &1233179348 stripped
 Transform:
@@ -5310,6 +6006,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -5369,6 +6077,10 @@ PrefabInstance:
     - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: m_Name
       value: puan coin2 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
@@ -5564,6 +6276,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3588383112290481954, guid: b0bdf630f2f53490083adbc286317ad9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588383112290549138, guid: b0bdf630f2f53490083adbc286317ad9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3588383112308198786, guid: b0bdf630f2f53490083adbc286317ad9, type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
@@ -5571,6 +6291,10 @@ PrefabInstance:
     - target: {fileID: 3588383112309740416, guid: b0bdf630f2f53490083adbc286317ad9, type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6978542748372619295, guid: b0bdf630f2f53490083adbc286317ad9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0bdf630f2f53490083adbc286317ad9, type: 3}
@@ -5586,6 +6310,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -5645,6 +6381,10 @@ PrefabInstance:
     - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: m_Name
       value: puan coin2 (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
@@ -5712,6 +6452,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3588383112290481954, guid: b0bdf630f2f53490083adbc286317ad9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588383112290549138, guid: b0bdf630f2f53490083adbc286317ad9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3588383112308198786, guid: b0bdf630f2f53490083adbc286317ad9, type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
@@ -5719,6 +6467,10 @@ PrefabInstance:
     - target: {fileID: 3588383112309740416, guid: b0bdf630f2f53490083adbc286317ad9, type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6978542748372619295, guid: b0bdf630f2f53490083adbc286317ad9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0bdf630f2f53490083adbc286317ad9, type: 3}
@@ -5823,6 +6575,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -5882,6 +6646,10 @@ PrefabInstance:
     - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: m_Name
       value: puan coin2 (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
@@ -5968,6 +6736,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -6027,6 +6807,10 @@ PrefabInstance:
     - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: m_Name
       value: puan coin2 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
@@ -6182,6 +6966,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1202816573}
     m_Modifications:
+    - target: {fileID: 1904113025027509687, guid: df45ae57f658d4a429f4502db4db8d5a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4522827076216597715, guid: df45ae57f658d4a429f4502db4db8d5a, type: 3}
       propertyPath: winLose
       value: 
@@ -6190,6 +6978,10 @@ PrefabInstance:
       propertyPath: impactSound
       value: 
       objectReference: {fileID: 875820193}
+    - target: {fileID: 5765624204899238823, guid: df45ae57f658d4a429f4502db4db8d5a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7291343528068622924, guid: df45ae57f658d4a429f4502db4db8d5a, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -6238,6 +7030,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Punch_Prefab (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7961201829213106422, guid: df45ae57f658d4a429f4502db4db8d5a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df45ae57f658d4a429f4502db4db8d5a, type: 3}
 --- !u!4 &1348842029 stripped
@@ -6252,6 +7048,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -6312,6 +7120,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: puan coin2 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
 --- !u!4 &1360746845 stripped
@@ -6326,6 +7138,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -6386,6 +7210,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: puan coin2 (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
 --- !u!4 &1363625094 stripped
@@ -6400,6 +7228,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: winLose
       value: 
@@ -6456,6 +7296,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: puan coin2
       objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
 --- !u!4 &1439231844 stripped
@@ -6470,6 +7314,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -6530,6 +7386,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: puan coin2 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
 --- !u!4 &1490705028 stripped
@@ -6544,6 +7404,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -6603,6 +7475,10 @@ PrefabInstance:
     - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: m_Name
       value: puan coin2 (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
@@ -6715,6 +7591,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -6775,6 +7663,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: puan coin2 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
 --- !u!4 &1562913551 stripped
@@ -6789,6 +7681,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -6848,6 +7752,10 @@ PrefabInstance:
     - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: m_Name
       value: puan coin2 (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
@@ -7373,6 +8281,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -7433,6 +8353,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: puan coin2 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
 --- !u!4 &1658568187 stripped
@@ -7447,6 +8371,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -7506,6 +8442,10 @@ PrefabInstance:
     - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: m_Name
       value: puan coin2 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
@@ -7656,6 +8596,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -7715,6 +8667,10 @@ PrefabInstance:
     - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: m_Name
       value: puan coin2 (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
@@ -7928,6 +8884,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -7988,6 +8956,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: puan coin2 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
 --- !u!4 &1783390341 stripped
@@ -8041,6 +9013,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -8101,6 +9085,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: puan coin2 (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
 --- !u!4 &1836621392 stripped
@@ -8115,6 +9103,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -8174,6 +9174,10 @@ PrefabInstance:
     - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: m_Name
       value: puan coin2 (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
@@ -8345,7 +9349,7 @@ RectTransform:
   m_GameObject: {fileID: 1873546491}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalScale: {x: 14, y: 14, z: 14}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1219218473}
@@ -8353,7 +9357,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -190.00003, y: -643.91534}
+  m_AnchoredPosition: {x: -200, y: -643.91534}
   m_SizeDelta: {x: 34.78, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1873546493
@@ -8432,7 +9436,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 702b69e4573027940a31740103c13b8e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1e48c14abe5b2b346a975db842225a97, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -8457,6 +9461,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -8517,6 +9533,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: puan coin2 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
 --- !u!4 &1891147804 stripped
@@ -8552,7 +9572,7 @@ RectTransform:
   m_GameObject: {fileID: 1932653701}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalScale: {x: 14, y: 14, z: 14}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1219218473}
@@ -8560,7 +9580,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 189.99994, y: -643.91534}
+  m_AnchoredPosition: {x: 200, y: -643.91534}
   m_SizeDelta: {x: 34.78, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1932653703
@@ -8639,7 +9659,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6f7a3650ce29a3a45a6260bcaff9871a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e69e74a04baf05f44b32f3ff1754509f, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -8720,6 +9740,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: torusoval
       objectReference: {fileID: 0}
+    - target: {fileID: 5733481112493325230, guid: 6824d7bad9f6db347b10e4ee6649fe96, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6824d7bad9f6db347b10e4ee6649fe96, type: 3}
 --- !u!4 &1948181108 stripped
@@ -8734,6 +9758,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1615144378}
     m_Modifications:
+    - target: {fileID: 756073623988055048, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968045387734424484, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390599989295435364, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7128861783322355039, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: score
       value: 
@@ -8793,6 +9829,10 @@ PrefabInstance:
     - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
       propertyPath: m_Name
       value: puan coin2 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7939749198726191112, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fa335f50920a4fb6fc0397b7bb377, type: 3}
@@ -8864,6 +9904,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: engel duz duvar (07)
       objectReference: {fileID: 0}
+    - target: {fileID: 725673823191029232, guid: 22e5d98d06036804b8e831672c5e166d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22e5d98d06036804b8e831672c5e166d, type: 3}
 --- !u!4 &2013727019 stripped
@@ -8878,9 +9922,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1202816573}
     m_Modifications:
+    - target: {fileID: 2564495217141354093, guid: f3d91ac8c3a8444868edc64aa0101722, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6955045866214744793, guid: f3d91ac8c3a8444868edc64aa0101722, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7478300849832750572, guid: f3d91ac8c3a8444868edc64aa0101722, type: 3}
       propertyPath: m_Name
       value: Testere_Prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 7478300849832750572, guid: f3d91ac8c3a8444868edc64aa0101722, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7819255748603950934, guid: f3d91ac8c3a8444868edc64aa0101722, type: 3}
       propertyPath: m_RootOrder
