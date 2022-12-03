@@ -100,14 +100,14 @@ public class NewController : MonoBehaviour
 
     public void SetFwdSpeed(float newSpeed)
     {
-        if (newSpeed >= 0 && newSpeed <= 10.0f)
+        if (newSpeed >= 0)
             fwdSpeed = newSpeed;
     }
 
 
     public void StartandStop_Plane()
     {
-        SetFwdSpeed(10);
+        SetFwdSpeed(15);
         CameraSwitch.instance.ChangeStartCamera();
     }
 
