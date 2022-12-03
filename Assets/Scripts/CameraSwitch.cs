@@ -7,6 +7,7 @@ public class CameraSwitch : MonoBehaviour
 {
     [SerializeField] private CinemachineVirtualCamera startCam;
     [SerializeField] private CinemachineVirtualCamera gameCam;
+    [SerializeField] private CinemachineVirtualCamera finishCam;
     public static CameraSwitch instance;
 
 
@@ -15,18 +16,30 @@ public class CameraSwitch : MonoBehaviour
         instance = this;
     }
 
-    public void ChangeCameraFunct()
+    public void ChangeStartCamera()
     {
         if (startCam.Priority >= gameCam.Priority)
         {
-            StartCoroutine(ChangeCamera());
+            StartCoroutine(ChangeCamera1());
         }
     }
 
+    public void ChangeFinishCamera()
+    {
+        StartCoroutine(ChangeCamera2());
+    }
 
-    IEnumerator ChangeCamera()
+
+    IEnumerator ChangeCamera1()
     {
         yield return new WaitForSeconds(0.01f);
         gameCam.Priority = startCam.Priority + 1;
+    }
+
+    IEnumerator ChangeCamera2()
+    {
+        yield return new WaitForSeconds(0.01f);
+        finishCam.transform.position = new Vector3(gameCam.transform.position.x, finishCam.transform.position.y, finishCam.transform.position.z);
+        finishCam.Priority = gameCam.Priority + 1;
     }
 }

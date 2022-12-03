@@ -33,6 +33,7 @@ public class WinLose : MonoBehaviour
             GameObject.FindWithTag("plane").GetComponent<Animator>().Play("WinPlane");
             GameObject.FindWithTag("confettis").transform.GetChild(0).transform.gameObject.SetActive(true);
             GameObject.FindWithTag("confettis").transform.GetChild(1).transform.gameObject.SetActive(true);
+            GameObject.FindWithTag("confettis").transform.GetChild(2).transform.gameObject.SetActive(true);
             WinSound.Play();
             gameEnded = true;
             StartCoroutine(NextLevel());

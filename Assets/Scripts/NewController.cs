@@ -7,9 +7,10 @@ public class NewController : MonoBehaviour
     [SerializeField] private float fwdSpeed, horizontalSpeedFactor, inputSensitivity;
     [SerializeField] private float rollRotSpeed, rollTurnSpeed;
     [SerializeField] private GameObject floorObject;
+    [SerializeField] private GameObject finishline;
     private Touch touch;
     private Vector2 touchPos, previousTouchPos;
-    private float normalizedDeltaPosition, targetPos;
+    private float normalizedDeltaPosition, targetPos, finishLinePos;
     private Vector3 lastPosition;
     private GameObject planeObj;
     private float floorMinX, floorMaxX, planeMinX, planeMaxX;
@@ -22,6 +23,7 @@ public class NewController : MonoBehaviour
         planeMaxX = planeObj.GetComponent<MeshCollider>().bounds.max.x;
         floorMinX = floorObject.GetComponent<MeshCollider>().bounds.min.x;
         floorMaxX = floorObject.GetComponent<MeshCollider>().bounds.max.x;
+        finishLinePos = finishline.transform.position.z;
 
         SetFwdSpeed(0);
     }
@@ -31,6 +33,7 @@ public class NewController : MonoBehaviour
         TouchInput();
         MovewithSlide();
         RollRotation();
+        FinishLineCameraCheck();
     }
 
 
@@ -105,12 +108,20 @@ public class NewController : MonoBehaviour
     public void StartandStop_Plane()
     {
         SetFwdSpeed(10);
-        CameraSwitch.instance.ChangeCameraFunct();
+        CameraSwitch.instance.ChangeStartCamera();
     }
 
 
     public float GetSpeed()
     {
         return fwdSpeed;
+    }
+
+    private void FinishLineCameraCheck()
+    {
+        if (finishLinePos - transform.position.z < 5)
+        {
+            CameraSwitch.instance.ChangeFinishCamera();
+        }
     }
 }
