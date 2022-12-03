@@ -18,8 +18,8 @@ public class WinLose : MonoBehaviour
     {
         coinRate = 1.0f;
         numOfCoins = 1000.0f;
-        fuel = 1000f;
-        fuelConsumption = SceneManager.GetActiveScene().buildIndex + 1;
+        fuel = 100f;
+        fuelConsumption = 1;
         totalFuel = fuel;
         StartCoroutine("DoCheck");
     }
