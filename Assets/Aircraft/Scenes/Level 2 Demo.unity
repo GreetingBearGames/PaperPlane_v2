@@ -174,6 +174,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 491866176963311915, guid: 22e5d98d06036804b8e831672c5e166d, type: 3}
+      propertyPath: winLose
+      value: 
+      objectReference: {fileID: 940940936}
+    - target: {fileID: 491866176963311915, guid: 22e5d98d06036804b8e831672c5e166d, type: 3}
+      propertyPath: impactSound
+      value: 
+      objectReference: {fileID: 1588253970}
     - target: {fileID: 725673823191029232, guid: 22e5d98d06036804b8e831672c5e166d, type: 3}
       propertyPath: m_Name
       value: engel duz duvar (2)
@@ -1000,6 +1008,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7989436988937338301, guid: f3d91ac8c3a8444868edc64aa0101722, type: 3}
+      propertyPath: winLose
+      value: 
+      objectReference: {fileID: 940940936}
+    - target: {fileID: 7989436988937338301, guid: f3d91ac8c3a8444868edc64aa0101722, type: 3}
+      propertyPath: impactSound
+      value: 
+      objectReference: {fileID: 1588253970}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3d91ac8c3a8444868edc64aa0101722, type: 3}
 --- !u!4 &194343504 stripped
@@ -1014,6 +1030,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2135671943}
     m_Modifications:
+    - target: {fileID: 4850380510211229429, guid: 6824d7bad9f6db347b10e4ee6649fe96, type: 3}
+      propertyPath: winLose
+      value: 
+      objectReference: {fileID: 940940936}
+    - target: {fileID: 4850380510211229429, guid: 6824d7bad9f6db347b10e4ee6649fe96, type: 3}
+      propertyPath: impactSound
+      value: 
+      objectReference: {fileID: 1588253970}
     - target: {fileID: 4961482574663983380, guid: 6824d7bad9f6db347b10e4ee6649fe96, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -2605,6 +2629,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 491866176963311915, guid: 22e5d98d06036804b8e831672c5e166d, type: 3}
+      propertyPath: winLose
+      value: 
+      objectReference: {fileID: 940940936}
+    - target: {fileID: 491866176963311915, guid: 22e5d98d06036804b8e831672c5e166d, type: 3}
+      propertyPath: impactSound
+      value: 
+      objectReference: {fileID: 1588253970}
     - target: {fileID: 725673823191029232, guid: 22e5d98d06036804b8e831672c5e166d, type: 3}
       propertyPath: m_Name
       value: engel duz duvar (1)
@@ -2662,6 +2694,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2015886963}
     m_Modifications:
+    - target: {fileID: 5726149486168344145, guid: 00aea4da9e7fd44a4aed26ae6dd4f154, type: 3}
+      propertyPath: winLose
+      value: 
+      objectReference: {fileID: 940940936}
+    - target: {fileID: 5726149486168344145, guid: 00aea4da9e7fd44a4aed26ae6dd4f154, type: 3}
+      propertyPath: impactSound
+      value: 
+      objectReference: {fileID: 1588253970}
     - target: {fileID: 6220474955981682705, guid: 00aea4da9e7fd44a4aed26ae6dd4f154, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -3140,6 +3180,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2015886963}
     m_Modifications:
+    - target: {fileID: 4522827076216597715, guid: df45ae57f658d4a429f4502db4db8d5a, type: 3}
+      propertyPath: winLose
+      value: 
+      objectReference: {fileID: 940940936}
+    - target: {fileID: 4522827076216597715, guid: df45ae57f658d4a429f4502db4db8d5a, type: 3}
+      propertyPath: impactSound
+      value: 
+      objectReference: {fileID: 1588253970}
     - target: {fileID: 7291343528068622924, guid: df45ae57f658d4a429f4502db4db8d5a, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -3241,6 +3289,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2135671943}
     m_Modifications:
+    - target: {fileID: 4850380510211229429, guid: 6824d7bad9f6db347b10e4ee6649fe96, type: 3}
+      propertyPath: winLose
+      value: 
+      objectReference: {fileID: 940940936}
+    - target: {fileID: 4850380510211229429, guid: 6824d7bad9f6db347b10e4ee6649fe96, type: 3}
+      propertyPath: impactSound
+      value: 
+      objectReference: {fileID: 1588253970}
     - target: {fileID: 4961482574663983380, guid: 6824d7bad9f6db347b10e4ee6649fe96, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -4739,6 +4795,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 491866176963311915, guid: 22e5d98d06036804b8e831672c5e166d, type: 3}
+      propertyPath: winLose
+      value: 
+      objectReference: {fileID: 940940936}
+    - target: {fileID: 491866176963311915, guid: 22e5d98d06036804b8e831672c5e166d, type: 3}
+      propertyPath: impactSound
+      value: 
+      objectReference: {fileID: 1588253970}
     - target: {fileID: 725673823191029232, guid: 22e5d98d06036804b8e831672c5e166d, type: 3}
       propertyPath: m_Name
       value: engel duz duvar (1)
@@ -6065,6 +6129,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2135671943}
     m_Modifications:
+    - target: {fileID: 4850380510211229429, guid: 6824d7bad9f6db347b10e4ee6649fe96, type: 3}
+      propertyPath: winLose
+      value: 
+      objectReference: {fileID: 940940936}
+    - target: {fileID: 4850380510211229429, guid: 6824d7bad9f6db347b10e4ee6649fe96, type: 3}
+      propertyPath: impactSound
+      value: 
+      objectReference: {fileID: 1588253970}
     - target: {fileID: 4961482574663983380, guid: 6824d7bad9f6db347b10e4ee6649fe96, type: 3}
       propertyPath: m_RootOrder
       value: 2
