@@ -56,7 +56,7 @@ public class ShopMenuButtons : MonoBehaviour
     public void FuelUpgrade()
     {
         winLose.numOfCoins -= menuValue;
-        winLose.fuel += 25f;
+        winLose.fuel += 14f;
         buttonSound.Play();
     }
 }
