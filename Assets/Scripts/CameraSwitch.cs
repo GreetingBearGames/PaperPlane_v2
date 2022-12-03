@@ -39,7 +39,6 @@ public class CameraSwitch : MonoBehaviour
     IEnumerator ChangeCamera2()
     {
         yield return new WaitForSeconds(0.01f);
-        finishCam.transform.position = new Vector3(gameCam.transform.position.x, finishCam.transform.position.y, finishCam.transform.position.z);
         finishCam.Priority = gameCam.Priority + 1;
     }
 }
