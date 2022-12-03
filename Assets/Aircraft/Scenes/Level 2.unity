@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.082765035, g: 0.036201578, b: 0.13373275, a: 1}
+  m_IndirectSpecularColor: {r: 0.08276503, g: 0.036201574, b: 0.1337327, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -624,7 +624,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 118390510}
-  m_LocalRotation: {x: 0.110085145, y: 0.000000020641856, z: -0.0000000022862572, w: 0.9939222}
+  m_LocalRotation: {x: 0.110085145, y: 0.000000019120396, z: -0.0000000021177433, w: 0.9939222}
   m_LocalPosition: {x: 0, y: 4.143, z: -206.28}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3964,8 +3964,8 @@ MonoBehaviour:
   newController: {fileID: 1507843674}
   WinSound: {fileID: 1000098750}
   buttonSound: {fileID: 638336031}
-  gameOverText: {fileID: 0}
-  gameOverButton: {fileID: 0}
+  gameOverText: {fileID: 1677100569}
+  gameOverButton: {fileID: 1985126093}
   gameEnded: 0
   gameStarted: 0
   coinRate: 0
@@ -7336,6 +7336,7 @@ GameObject:
   - component: {fileID: 1562883853}
   - component: {fileID: 1562883854}
   - component: {fileID: 1562883855}
+  - component: {fileID: 1562883856}
   m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
@@ -7431,6 +7432,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fuelBar: {fileID: 1562883854}
   winLose: {fileID: 940940936}
+--- !u!95 &1562883856
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562883852}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e9caf4101b77044bdb6079221d663f76, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1578764436
 GameObject:
   m_ObjectHideFlags: 0
@@ -9668,7 +9689,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -250}
+  m_AnchoredPosition: {x: 0, y: -701}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1985126095
