@@ -8,8 +8,9 @@ using TMPro;
 public class NextLevelText : MonoBehaviour
 {
     public TextMeshProUGUI currentLevelText;
-    private void Awake() {
-        var currentLevel = SceneManager.GetActiveScene().buildIndex + 2;
+    private void Awake()
+    {
+        var currentLevel = PlayerPrefs.GetInt("SavedLevel", 1) + 1;
         currentLevelText.text = currentLevel.ToString();
     }
 }

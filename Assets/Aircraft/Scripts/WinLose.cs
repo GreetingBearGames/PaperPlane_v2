@@ -12,7 +12,13 @@ public class WinLose : MonoBehaviour
     public bool gameEnded, gameStarted = false;
     public float coinRate, numOfCoins, fuel, fuelConsumption, totalFuel;
     private float maxDistancetoFinish;
+    private int _savedLevel;
 
+
+    private void Awake()
+    {
+        GoToScene();
+    }
 
     private void Start()
     {
@@ -105,9 +111,10 @@ public class WinLose : MonoBehaviour
 
     IEnumerator NextLevel()
     {
+        PlayerPrefs.SetInt("SavedLevel", PlayerPrefs.GetInt("SavedLevel", 1) + 1);
         yield return new WaitForSeconds(3f);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         gameStarted = false;
+        GoToScene();
     }
 
     IEnumerator RestartLevelWait()
@@ -115,6 +122,25 @@ public class WinLose : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         gameStarted = false;
+    }
+
+    private void GoToScene()
+    {
+        string sceneName = "Level " + PlayerPrefs.GetInt("SavedLevel", 1);
+        if ((PlayerPrefs.GetInt("SavedLevel", 1) - 1) % 4 == 0)  //level5 = level1, level9=level1
+        {
+            sceneName = "Level " + 1;   //tekrar 1 den başlat
+        }
+        else if (PlayerPrefs.GetInt("SavedLevel", 1) > 5)
+        {
+            sceneName = "Level " + (PlayerPrefs.GetInt("SavedLevel", 1) % 4);
+        }
+
+        if (SceneManager.GetActiveScene().name != sceneName)
+        {
+            Debug.Log("sahneye gitti");
+            SceneManager.LoadScene(sceneName);
+        }
     }
 }
 
