@@ -19,7 +19,7 @@ public class Coins : MonoBehaviour
     {
         if (other.transform.tag == "plane")
         {
-            winLose.numOfCoins += winLose.coinRate;
+            winLose.numOfCoins = (int)(winLose.numOfCoins + winLose.coinRate);
             coinSound.Play();
             Explode();
             Destroy(this.gameObject);

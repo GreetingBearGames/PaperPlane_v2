@@ -10,9 +10,12 @@ public class WinLose : MonoBehaviour
     [SerializeField] private AudioSource buttonSound;
     public GameObject gameOverText, gameOverButton;
     public bool gameEnded, gameStarted = false;
-    public float coinRate, numOfCoins, fuel, fuelConsumption, totalFuel;
-    private float maxDistancetoFinish;
-    private int _savedLevel;
+    public float coinRate, fuel, fuelConsumption, totalFuel;
+    public int numOfCoins
+    {       //Health property. You can get health from outside this script, but you can only set in this script.
+        get => PlayerPrefs.GetInt("Money", 0);
+        set => PlayerPrefs.SetInt("Money", value);
+    }
 
 
     private void Awake()
@@ -23,7 +26,6 @@ public class WinLose : MonoBehaviour
     private void Start()
     {
         coinRate = 1.0f;
-        numOfCoins = 1000.0f;
         fuel = 100f;
         fuelConsumption = 1;
         totalFuel = fuel;
