@@ -87,5 +87,6 @@ public class ShopMenuButtons : MonoBehaviour
         PlayerPrefs.SetInt("fuelUpgLvl", PlayerPrefs.GetInt("fuelUpgLvl", 1) + 1);
         fuelButtonLvl.text = PlayerPrefs.GetInt("fuelUpgLvl", 1).ToString();
         fuelButtonAmount.text = (int.Parse(fuelButtonLvl.text) * 20).ToString();
+        PlayerPrefs.SetInt("PropCount", PlayerPrefs.GetInt("PropCount", 2) + 1);
     }
 }
