@@ -19,8 +19,8 @@ public class NewController : MonoBehaviour
     void Start()
     {
         planeObj = this.transform.GetChild(1).gameObject;
-        planeMinX = planeObj.GetComponent<MeshCollider>().bounds.min.x;
-        planeMaxX = planeObj.GetComponent<MeshCollider>().bounds.max.x;
+        planeMinX = planeObj.GetComponents<BoxCollider>()[0].bounds.min.x;
+        planeMaxX = planeObj.GetComponents<BoxCollider>()[0].bounds.max.x;
         floorMinX = floorObject.GetComponent<MeshCollider>().bounds.min.x;
         floorMaxX = floorObject.GetComponent<MeshCollider>().bounds.max.x;
         finishLinePos = finishline.transform.position.z;
