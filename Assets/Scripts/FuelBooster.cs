@@ -24,6 +24,26 @@ public class FuelBooster : MonoBehaviour
         if (other.tag == "plane")
         {
             winLose.IncreaseFuel(winLose.totalFuel * fuelIncreaseRate);
+
+            StartCoroutine(PlaneSpeedUp(other.gameObject));
+        }
+    }
+
+    IEnumerator PlaneSpeedUp(GameObject planeObj)
+    {
+        planeObj.transform.parent.GetComponent<NewController>().SetFwdSpeed(30);
+        var speed = 30;
+        var finalspeed = 15;
+        float newSpeed;
+        float elapsedTime = 0;
+        float waitTime = 0.5f;
+
+        while (elapsedTime < waitTime)
+        {
+            newSpeed = Mathf.Lerp(speed, finalspeed, (elapsedTime / waitTime));
+            elapsedTime += Time.deltaTime;
+            planeObj.transform.parent.GetComponent<NewController>().SetFwdSpeed(newSpeed);
+            yield return null;
         }
     }
 }

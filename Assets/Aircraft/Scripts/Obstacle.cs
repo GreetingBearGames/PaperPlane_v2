@@ -15,6 +15,7 @@ public class Obstacle : MonoBehaviour
             impactSound.Play();
             winLose.LoseLevel();
             istriggered = true;
+
         }
     }
 }
