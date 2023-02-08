@@ -8584,6 +8584,8 @@ MonoBehaviour:
   newController: {fileID: 2060692849}
   WinSound: {fileID: 2087719290}
   buttonSound: {fileID: 509474380}
+  leftExhaust: {fileID: 5909989919012312248}
+  rightExhaust: {fileID: 5909989919012312247}
   gameOverText: {fileID: 1585240004}
   gameOverButton: {fileID: 1036774693}
   gameEnded: 0
@@ -10357,6 +10359,10 @@ PrefabInstance:
       propertyPath: newController
       value: 
       objectReference: {fileID: 2060692849}
+    - target: {fileID: 3231720607165988104, guid: c9f5b0b036002994ca2ee14ebfc83a64, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3231720607968150077, guid: c9f5b0b036002994ca2ee14ebfc83a64, type: 3}
       propertyPath: m_Name
       value: Slider
@@ -11926,11 +11932,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 927311956209349289, guid: 13f338741029d45bc8ea5e93bb6b3951, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000014824005
+      value: -0.000000014824007
       objectReference: {fileID: 0}
     - target: {fileID: 927311956209349289, guid: 13f338741029d45bc8ea5e93bb6b3951, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000038101375
+      value: 0.000000003810138
       objectReference: {fileID: 0}
     - target: {fileID: 927311957623218902, guid: 13f338741029d45bc8ea5e93bb6b3951, type: 3}
       propertyPath: m_LocalRotation.x
@@ -11938,11 +11944,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 927311957623218902, guid: 13f338741029d45bc8ea5e93bb6b3951, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000014824005
+      value: -0.000000014824007
       objectReference: {fileID: 0}
     - target: {fileID: 927311957623218902, guid: 13f338741029d45bc8ea5e93bb6b3951, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000038101375
+      value: 0.000000003810138
       objectReference: {fileID: 0}
     - target: {fileID: 927311957623218903, guid: 13f338741029d45bc8ea5e93bb6b3951, type: 3}
       propertyPath: m_Follow
@@ -12473,3 +12479,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1d4e27be188c4045821f1aff8d7a6c3, type: 3}
+--- !u!198 &5909989919012312247 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 442069801261865214, guid: e1d4e27be188c4045821f1aff8d7a6c3, type: 3}
+  m_PrefabInstance: {fileID: 5909989919012312246}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &5909989919012312248 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 442069800017442338, guid: e1d4e27be188c4045821f1aff8d7a6c3, type: 3}
+  m_PrefabInstance: {fileID: 5909989919012312246}
+  m_PrefabAsset: {fileID: 0}
