@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.07052275, g: 0.35373604, b: 0.97078824, a: 1}
+  m_IndirectSpecularColor: {r: 0.07052299, g: 0.35362434, b: 0.97000647, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8457,7 +8457,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5377358, g: 0.47939655, b: 0.47939655, a: 0.49019608}
+  m_Color: {r: 0.5377358, g: 0.47939655, b: 0.47939655, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -8987,22 +8987,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: TaptoStart (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 2645717172601758959, guid: 259f70d6f7b534d11bf6ecf3315125fc, type: 3}
-      propertyPath: m_fontSize
-      value: 121.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 2645717172601758959, guid: 259f70d6f7b534d11bf6ecf3315125fc, type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: 4cd235a897a207a4aab1a76a25904360, type: 2}
-    - target: {fileID: 2645717172601758959, guid: 259f70d6f7b534d11bf6ecf3315125fc, type: 3}
-      propertyPath: m_fontStyle
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2645717172601758959, guid: 259f70d6f7b534d11bf6ecf3315125fc, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: -1625109400513761870, guid: 4cd235a897a207a4aab1a76a25904360, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 259f70d6f7b534d11bf6ecf3315125fc, type: 3}
 --- !u!224 &1593816517 stripped
@@ -10373,14 +10357,6 @@ PrefabInstance:
       propertyPath: newController
       value: 
       objectReference: {fileID: 2060692849}
-    - target: {fileID: 3231720607165988104, guid: c9f5b0b036002994ca2ee14ebfc83a64, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3231720607441717254, guid: c9f5b0b036002994ca2ee14ebfc83a64, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3231720607968150077, guid: c9f5b0b036002994ca2ee14ebfc83a64, type: 3}
       propertyPath: m_Name
       value: Slider
@@ -11950,11 +11926,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 927311956209349289, guid: 13f338741029d45bc8ea5e93bb6b3951, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000016664734
+      value: -0.000000014824005
       objectReference: {fileID: 0}
     - target: {fileID: 927311956209349289, guid: 13f338741029d45bc8ea5e93bb6b3951, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.00000000428325
+      value: 0.0000000038101375
       objectReference: {fileID: 0}
     - target: {fileID: 927311957623218902, guid: 13f338741029d45bc8ea5e93bb6b3951, type: 3}
       propertyPath: m_LocalRotation.x
@@ -11962,11 +11938,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 927311957623218902, guid: 13f338741029d45bc8ea5e93bb6b3951, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000016664734
+      value: -0.000000014824005
       objectReference: {fileID: 0}
     - target: {fileID: 927311957623218902, guid: 13f338741029d45bc8ea5e93bb6b3951, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.00000000428325
+      value: 0.0000000038101375
       objectReference: {fileID: 0}
     - target: {fileID: 927311957623218903, guid: 13f338741029d45bc8ea5e93bb6b3951, type: 3}
       propertyPath: m_Follow
