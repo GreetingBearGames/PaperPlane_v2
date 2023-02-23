@@ -8,6 +8,7 @@ public class WinLose : MonoBehaviour
     [SerializeField] private NewController newController;
     [SerializeField] private AudioSource WinSound;
     [SerializeField] private AudioSource buttonSound;
+    [SerializeField] private ParticleSystem leftExhaust, rightExhaust;
     public GameObject gameOverText, gameOverButton;
     public bool gameEnded, gameStarted = false;
     public float coinRate, fuel, fuelConsumption, totalFuel;
@@ -56,6 +57,9 @@ public class WinLose : MonoBehaviour
             newController.SetFwdSpeed(0);
             gameOverText.GetComponent<TextMeshProUGUI>().enabled = true;
             gameOverButton.SetActive(true);
+
+            leftExhaust.Stop();
+            rightExhaust.Stop();
             gameEnded = true;
         }
     }
