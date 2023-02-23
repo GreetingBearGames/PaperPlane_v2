@@ -38,7 +38,7 @@ public class FuelBooster : MonoBehaviour
         float elapsedTime = 0;
         float waitTime = 0.5f;
 
-        while (elapsedTime < waitTime)
+        while (elapsedTime < waitTime && !winLose.gameEnded)
         {
             newSpeed = Mathf.Lerp(speed, finalspeed, (elapsedTime / waitTime));
             elapsedTime += Time.deltaTime;
