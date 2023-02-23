@@ -44,6 +44,7 @@ public class WinLose : MonoBehaviour
             GameObject.FindWithTag("confettis").transform.GetChild(2).transform.gameObject.SetActive(true);
             WinSound.Play();
             gameEnded = true;
+            TinySauce.OnGameFinished(gameEnded, numOfCoins, SceneManager.GetActiveScene().name);
             StartCoroutine(NextLevel());
         }
     }

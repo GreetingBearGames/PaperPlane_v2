@@ -12,5 +12,7 @@ public class NextLevelText : MonoBehaviour
     {
         var currentLevel = PlayerPrefs.GetInt("SavedLevel", 1) + 1;
         currentLevelText.text = currentLevel.ToString();
+        TinySauce.OnGameStarted(SceneManager.GetActiveScene().name);
+
     }
 }
